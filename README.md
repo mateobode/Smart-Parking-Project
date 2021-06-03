@@ -50,6 +50,7 @@ Ca inceput, am luat un bazament de carton pentru a creea locul de parcare asa cu
  ![LCD-I2C](LCD-I2C.jpeg)
  
  **Toate output-uri din cele 6 senzorii, 4 leduri si servo motorul, sunt conectate la porturile digitale pe Arduino, cum se vede la schema de       circuit mai jos.**
+ 
  Montajul final realizat pentru acest proiect este ca la poza de mai jos.
  
  ![final](final.jpeg)

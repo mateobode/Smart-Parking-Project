@@ -33,29 +33,32 @@ O parcare de tip Smart-Parking (parcare inteligenta), se refera la un loc de par
 ---
 Ca inceput, am luat un bazament de carton pentru a creea locul de parcare asa cum se vede la poza de mai jos.
 
-![carton]()
+![carton](carton.jpeg)
 
  Pentru a face legatura cu Arduino am folosit doua fire, unul l-am folosit pentru a conecta breadboard-ul cu pinul de Vin(input de 5V) de la Arduino, si altul pentru a conecta breadboard-ul cu Ground-ul de la Arduino. Fiind 4 locuri de parcare, am folosit 4 senzori IR conectati in paralel avand aceasi Vin si GND. Pe GND comun am conectat si 4 LED-uri galbene care va aprinde cand un loc este ocupat si stinge cand locul este liber. Ca LED-urile sa aiba un curent maxim recomandat de 20mA, am conectat in fiecare catoda o rezistenta de 100ohm pentru a nu reduce viata utilizabila a LED-urilor. Fara rezistenta de 100ohm, curentul maxim care circula prin un LED este 53.5mA si nu este recomandat.
 
- ![senzori+led]()
+ ![senzori+led](Sensors+Leds.jpeg)
 
  Dupa aceasta am conectat inca doua senzorii separat, unul pentru intrarea in parcare si altul pentru iesirea de la parcare. Aceste doi senzorii va stimula si deschiderea/inchiderea barei de parcare. Pentru bara de parcare am folosit micro-ServoMotor. Senzorii si micro-ServoMotor-ul sunt conectatii pe breadboard-ul avand Vin=5V si GND.
 
- ![Entrance](https://gitlab.com/smp2021/334ab/parcare-inteligenta/-/blob/master/Entrance.jpeg?raw=true)
- ![exit]()
- ![servo]()
+ ![Entrance Sensor](Entrance.jpeg)
+ ![Exit Sensor](Exit.jpeg)
+ ![Servo Motor](servo.jpeg)
 
  Ultima componenta hardware conectata este LCD-ul 16x2. Pentru a conecta cu UNO R3 acest LCD, am folosit un Bus Module I2C. Modulul Bus este conectat cu LCD-ul in fiecare port al acestuia. Pin-ul SCL am conectat la portul SCL pe Arduino, pin-ul SDA am conectat la portul SDA pe Arduino, si Vin pe al doilea port 5V (nu cel folosit pentru senzorii si LED-uri), si GND pe al doilea port GND (nu cel folosit pentru senzorii si LED-uri).
 
- ![LCD]()
+ ![LCD-I2C](LCD-I2C.jpeg)
 
  Montajul final realizat pentru acest proiect este ca la poza de mai jos.
+ 
+ ![final](final.jpeg)
+ ![LCD](final_lcd.jpeg)
 
 ## **SCHEMA ELECTRICA:**
 ---
 Pentru a crea schema electrica am folosit un program numit Fritzing.
 
-![schema]()
+![schema](schema_circuit.png)
 
 ## **VIDEOCLIP:**
 ---

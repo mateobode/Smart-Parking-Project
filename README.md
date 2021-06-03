@@ -41,7 +41,7 @@ Ca inceput, am luat un bazament de carton pentru a creea locul de parcare asa cu
 
  Dupa aceasta am conectat inca doua senzorii separat, unul pentru intrarea in parcare si altul pentru iesirea de la parcare. Aceste doi senzorii va stimula si deschiderea/inchiderea barei de parcare. Pentru bara de parcare am folosit micro-ServoMotor. Senzorii si micro-ServoMotor-ul sunt conectatii pe breadboard-ul avand Vin=5V si GND.
 
- ![Entrance](https://gitlab.com/smp2021/334ab/parcare-inteligenta/-/blob/master/Entrance.jpeg)
+ ![Entrance](https://gitlab.com/smp2021/334ab/parcare-inteligenta/-/blob/master/Entrance.jpeg?raw=true)
  ![exit]()
  ![servo]()
 

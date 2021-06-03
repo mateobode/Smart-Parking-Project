@@ -48,7 +48,8 @@ Ca inceput, am luat un bazament de carton pentru a creea locul de parcare asa cu
  Ultima componenta hardware conectata este LCD-ul 16x2. Pentru a conecta cu UNO R3 acest LCD, am folosit un Bus Module I2C. Modulul Bus este conectat cu LCD-ul in fiecare port al acestuia. Pin-ul SCL am conectat la portul SCL pe Arduino, pin-ul SDA am conectat la portul SDA pe Arduino, si Vin pe al doilea port 5V (nu cel folosit pentru senzorii si LED-uri), si GND pe al doilea port GND (nu cel folosit pentru senzorii si LED-uri).
 
  ![LCD-I2C](LCD-I2C.jpeg)
- **Toate output-uri din cele 6 senzorii, 4 leduri si servo motorul, sunt conectate la porturile digitale pe Arduino, cum se vede la schema de circuit mai jos.**
+ 
+ **Toate output-uri din cele 6 senzorii, 4 leduri si servo motorul, sunt conectate la porturile digitale pe Arduino, cum se vede la schema de       circuit mai jos.**
  Montajul final realizat pentru acest proiect este ca la poza de mai jos.
  
  ![final](final.jpeg)
